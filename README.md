@@ -4,30 +4,30 @@
 
 Java 8
 
-###Flyway
+### Flyway
 Migration scripts are located under:
 ```src/main/resources/db.migration``` 
 
 
-###Building 
+### Building 
 
 To build the app run: 
 ```
 gradle build
 ```
 
-###Actuator
+### Actuator
 Actuator information is available at:
 ```
 http://localhost:8081/actuator/
 ```
 
-###Swagger
+### Swagger
 The Swagger UI is available at: 
 ```
 http://localhost:8080/swagger-ui.html
 ```
-###Code coverage
+### Code coverage
 Code coverage is available in xml and html at:
 ```
 $projectdir/build/jacoc/test/
